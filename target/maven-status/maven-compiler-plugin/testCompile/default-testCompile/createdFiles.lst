@@ -1,0 +1,10 @@
+testCases/TC03_LoginValidationTest.class
+assignments/PopupHandler.class
+pageObjects/LoginPage.class
+pageObjects/HomePage.class
+pageObjects/MyAccountPage.class
+pageObjects/BasePage.class
+assignments/assignment4.class
+testBase/BaseClass.class
+testCases/TC01_AccRegisterTest.class
+testCases/TC02_LoginTest.class

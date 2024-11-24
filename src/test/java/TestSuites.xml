@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test name="Actual" >
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCases.TC02_LoginTest" />
+			<class name="testCases.TC01_AccRegisterTest" />
+			<class name="testCases.TC03_LoginValidationTest"/>
+		</classes>
+	</test> <!-- Test -->
+	<!-- <test name="Sanity">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="testCases.TC01_AccRegisterTest" />
+			<class name="testCases.TC02_LoginTest" />
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

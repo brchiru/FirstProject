@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Master Suite]">
+  <test thread-count="2" name="Exclude(failed)">
+    <parameter name="browser" value="safari"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC03_LoginValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC03_LoginValidationTest -->
+    </classes>
+  </test> <!-- Exclude(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
