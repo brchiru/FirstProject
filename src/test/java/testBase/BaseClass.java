@@ -16,7 +16,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-//BASE CLASS FOR INTILIZATION OF THE SETUP OF ENVIRONMENT TO PERFROM AUTOMATION TEST
+//BASE CLASS FOR INTILIZATION OF THE SETUP OF ENVIRONMENT TO PERFROM AUTOMATION TEST - Push to Remote Repo
 public class BaseClass {
 	
 	public static WebDriver driver;
